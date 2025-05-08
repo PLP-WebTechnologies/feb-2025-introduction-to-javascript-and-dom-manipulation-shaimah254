@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.action-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.action-btn:hover {
+    background-color: #0056b3;
+}
+
+.demo-box {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.button-group {
+    margin-top: 15px;
+}
+
+.highlight {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.new-element {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e7f5ff;
+    border-left: 4px solid #4dabf7;
+}
